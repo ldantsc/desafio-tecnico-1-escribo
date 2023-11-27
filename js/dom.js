@@ -9,4 +9,5 @@ const result = document.getElementById("result");
 btn.addEventListener("click", () => {
     const value = sumValues(input.value);
     result.innerHTML = value;
+    console.log(value)
 });
