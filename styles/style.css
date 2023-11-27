@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;500;600&display=swap');
+
+:root {
+    --color-blue-400: rgb(36, 116, 201);
+    --color-blue-200: rgba(24, 114, 211, 0.781);
+    --color-font-default: rgba(17, 17, 17, 0.845);
+}
+
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Kanit", sans-serif;
+    text-rendering: geometricPrecision;
+    color: var(--color-font-default);
+}
+
+/* classes */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    gap: 24px;
+    text-align: center;
+}
+
+.title-container {
+    font-size: 32px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.input-container input {
+    width: 100px;
+    height: 50px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.input-container input:focus {
+    border: none;
+}
+
+.input-container button {
+    background-color: var(--color-blue-400);
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    color: #FFF;
+    
+}
+
+.input-container button:hover {
+    cursor: pointer;
+    background-color: var(--color-blue-200);
+}
+
+/*tag selector*/
+
+p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+a {
+    color: var(--color-grey);
+    text-decoration: none;
+}
+
+img {
+    margin-top: 4px;
+    transition: 1s;
+}
+
+img:hover {
+    filter: contrast(0.7);
+}
