@@ -22,6 +22,6 @@ O principal desafio está em **js/script.js** e aqui segue o passo a passo que t
 
 ## Concluindo
 
-Para testar o código, criei uma pequena pagina para visualizar o resultado do desafio, que irei fazer o deploy atráves do Github Pages, o link esta em About no próprio repositório ou clicando [aqui](https://readme.so/editor)
+Para testar o código, criei uma pequena pagina para visualizar o resultado do desafio, que irei fazer o deploy atráves do Github Pages, o link esta em About no próprio repositório ou clicando [aqui](https://ldantsc.github.io/desafio-tecnico-1-escribo/)
 
 - O resultado vai estar visivel após o click no botão continuar e também através DevTools em console
