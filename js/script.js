@@ -26,7 +26,10 @@ export function sumValues(number) {
             initialArray.push(i);
         };
     };
-    
+
+    /* visualizar o array no console DevTools */
+    console.log(`Valores do Array: ${initialArray}`)
+
     /* após a parada do loop, criar uma variável e utilizar o método reduce para somar
     os numeros do array e retornar a soma de todos os numeros do array*/
     const result = initialArray.reduce((prevNumber, nextNumber)=> {
