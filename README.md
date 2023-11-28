@@ -1,4 +1,4 @@
-# Desafio Técninco 1
+# Desafio Técnico 1
 
 Este é um repositório referente ao primeiro desafio técnico da escribo em JavaScript, e utilizando HTML e CSS para visualizar o resultado
 
